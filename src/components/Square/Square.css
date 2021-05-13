@@ -1,0 +1,32 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.square {
+    background-color: inherit;
+    border: 3px solid #a6ad60;
+    float: left;
+    color: #a6ad60;
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    margin: -1px;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+

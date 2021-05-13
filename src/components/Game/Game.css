@@ -1,0 +1,9 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.game-board {
+    margin-top: 30px;
+}
